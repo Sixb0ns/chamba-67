@@ -28,5 +28,22 @@ namespace chamba_67
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			int v=0;
+			int c=0;
+			for(int i=0; i<textBox1.Text.Length; i++){
+				char tem=textBox1.Text[i];
+				if (tem==65||tem==69||tem==73||tem==79||tem==85||tem==97||tem==101||tem==105||tem==111||tem==117){
+					v++;
+				}
+				else if((tem>=65&&tem<=90)||(tem>=97&&tem<=122)){
+					c++;
+				}
+			}
+			textBox2.Text=v.ToString();
+			textBox3.Text=c.ToString();			
+		}
 	}
 }

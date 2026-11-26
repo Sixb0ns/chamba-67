@@ -28,5 +28,12 @@ namespace chamba_67
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			vocalyconsonantes f=new vocalyconsonantes();
+			f.Show();
+			this.Hide();
+		}
 	}
 }
