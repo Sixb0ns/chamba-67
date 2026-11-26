@@ -29,5 +29,14 @@ namespace chamba_67
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			if(textBox2.Text=="contraseña"&&textBox1.Text=="user"){
+				Form1 f= new Form1();
+				f.Show();
+				this.Hide();
+			}
+		}
 	}
 }
