@@ -51,10 +51,6 @@
     <Compile Include="encuentramayormenor.Designer.cs">
       <DependentUpon>encuentramayormenor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs" />
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="invertirpalabra.cs" />
     <Compile Include="invertirpalabra.Designer.cs">
       <DependentUpon>invertirpalabra.cs</DependentUpon>
@@ -75,15 +71,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="OrdenarNumeros.resx">
+      <DependentUpon>OrdenarNumeros.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-=======
-    <EmbeddedResource Include="vocalyconsonantes.resx">
-      <DependentUpon>vocalyconsonantes.cs</DependentUpon>
-    </EmbeddedResource>
->>>>>>> 144322c3b08d04ecb5a9d863e5dcf42aad21d8f6
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

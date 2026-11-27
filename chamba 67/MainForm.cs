@@ -33,8 +33,8 @@ namespace chamba_67
 		void Button1Click(object sender, EventArgs e)
 		{
 			if(textBox2.Text=="contraseña"&&textBox1.Text=="user"){
-				Form1 f= new Form1();
-				f.Show();
+				OrdenarNumeros xd= new OrdenarNumeros();
+				xd.Show();
 				this.Hide();
 			}
 		}
