@@ -32,7 +32,7 @@ namespace chamba_67
 		
 		void BtnMayorMenorClick(object sender, EventArgs e)
 		{
-			OrdenarNumeros xd= new OrdenarNumeros();
+			encuentramayormenor xd= new encuentramayormenor();
 			xd.Show();
 		}
 		
@@ -57,6 +57,11 @@ namespace chamba_67
 		void BtnOffClick(object sender, EventArgs e)
 		{
 			Application.Exit();
+		}
+		
+		void MenuPrincipalLoad(object sender, EventArgs e)
+		{
+			
 		}
 	}
 }
