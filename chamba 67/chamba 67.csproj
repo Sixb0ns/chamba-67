@@ -59,6 +59,10 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuPrincipal.cs" />
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrdenarNumeros.cs" />
     <Compile Include="OrdenarNumeros.Designer.cs">
       <DependentUpon>OrdenarNumeros.cs</DependentUpon>
@@ -71,8 +75,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OrdenarNumeros.resx">
       <DependentUpon>OrdenarNumeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vocalyconsonantes.resx">
+      <DependentUpon>vocalyconsonantes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

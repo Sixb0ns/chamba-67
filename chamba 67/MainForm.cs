@@ -33,7 +33,7 @@ namespace chamba_67
 		void Button1Click(object sender, EventArgs e)
 		{
 			if(textBox2.Text=="contraseña"&&textBox1.Text=="user"){
-				OrdenarNumeros xd= new OrdenarNumeros();
+				MenuPrincipal xd= new MenuPrincipal();
 				xd.Show();
 				this.Hide();
 			}
